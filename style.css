@@ -1,0 +1,138 @@
+/* 1. Global Variables */
+:root {
+  --primary-color: #000000; /* Pure Black */
+  --secondary-color: #3498db; /* Star Blue */
+  --text-color: #ffffff; /* White text for contrast */
+  --bg-color: #000000;
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.7;
+  margin: 0;
+  background-color: #000000; /* Pure Black base */
+  color: #ffffff;
+
+  /* Layered Star Clusters based on your image */
+  background-image:
+    radial-gradient(1px 1px at 20px 30px, #ffffff, rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 40px 70px, #ffffff, rgba(0, 0, 0, 0)),
+    radial-gradient(1.5px 1.5px at 50px 160px, #ffffff, rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 90px 40px, #ffffff, rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 130px 80px, #ffffff, rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 160px 120px, #ffffff, rgba(0, 0, 0, 0));
+  background-repeat: repeat;
+  background-size: 200px 200px; /* Adjust this to change star density */
+  background-attachment: fixed;
+}
+
+/* 2. Navigation Bar Styling */
+nav {
+  background: rgba(15, 15, 15, 0.9);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #333;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.nav-logo {
+  color: var(--white);
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 1.4s ease;
+}
+/*hover */
+.nav-logo:hover {
+  color: #dc143c;
+  transition: 0.4s;
+}
+
+.nav-links a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--secondary-color);
+}
+.btn {
+  display: inline-block;
+  background-color: #06273c; /* Professional Crimson Red */
+  color: #ffffff;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 4px; /* Slightly rounded for a modern look */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+  background-color: #067499;
+}
+/* 3. Hero Section */
+.hero {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  transition: color 0.4s ease;
+}
+.hero {
+  background: linear-gradient(to right, #3498db, #dc143c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+/* 4. Content Layout (Glassmorphism Card) */
+.main-container {
+  max-width: 1100px;
+  margin: 20px auto 40px;
+  padding: 0 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1); /* Slight white tint */
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+  color: var(--secondary-color);
+  border-left: 5px solid var(--secondary-color);
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+/* 5. Footer */
+footer {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-size: 0.9rem;
+}
