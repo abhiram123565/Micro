@@ -68,7 +68,20 @@ ul {
   list-style: none;
   padding: 0;
 }
+@media (max-width: 768px) {
+  .container {
+    margin: 30px 15px;
+    padding: 25px;
+  }
 
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
 .back-btn {
   display: inline-block;
   margin: 20px;
