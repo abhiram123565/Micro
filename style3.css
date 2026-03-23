@@ -1,0 +1,127 @@
+/* BODY */
+body {
+  font-family: "Montserrat", sans-serif;
+
+  /* Softer white (pure white strains eyes) */
+  color: #e6edf3;
+
+  background-color: #000;
+  background-image:
+    radial-gradient(1px 1px at 15% 25%, #fff, transparent),
+    radial-gradient(1px 1px at 75% 15%, #fff, transparent),
+    radial-gradient(1.5px 1.5px at 45% 85%, #fff, transparent),
+    radial-gradient(1px 1px at 85% 70%, #fff, transparent);
+  background-size: 270px 270px;
+
+  line-height: 1.7;
+}
+
+nav {
+  padding: 1.5rem 5%;
+  border-bottom: 1px solid #222;
+}
+
+.nav-logo {
+  font: 700 1.2rem sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+/* NAME */
+h1 {
+  color: #00e5ff;
+  margin-bottom: 10px;
+}
+
+/* SUBTITLE */
+.container > p {
+  margin-bottom: 30px;
+  color: #9aa4ad;
+}
+
+/* SECTIONS */
+section {
+  margin-bottom: 30px;
+}
+
+/* HEADINGS */
+h2 {
+  color: #00e5ff;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+p {
+  margin-bottom: 10px;
+}
+
+/* SKILLS LIST */
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* CARDS (for projects) */
+.card {
+  background: #111;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/* LINKS */
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav-logo:hover {
+  color: #62d777b4;
+  transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 30px 15px;
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+.back-btn {
+  display: inline-block;
+  margin: 20px;
+  padding: 8px 14px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #e6edf3;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background-color: #00bfff;
+  color: #000;
+}

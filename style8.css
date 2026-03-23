@@ -1,0 +1,102 @@
+body {
+  font-family: "Roboto", sans-serif;
+
+  /* Softer white (pure white strains eyes) */
+  color: #e6edf3;
+
+  background-color: #000;
+  background-image:
+    radial-gradient(1px 1px at 15% 25%, #fff, transparent),
+    radial-gradient(1px 1px at 75% 15%, #fff, transparent),
+    radial-gradient(1.5px 1.5px at 45% 85%, #fff, transparent),
+    radial-gradient(1px 1px at 85% 70%, #fff, transparent);
+  background-size: 270px 270px;
+
+  line-height: 1.7;
+}
+
+nav {
+  padding: 1.5rem 5%;
+  border-bottom: 1px solid #222;
+}
+
+.nav-logo {
+  font: 700 1.2rem sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.nav-logo:hover {
+  color: #41a154;
+  transition: 0.3s;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* HEADINGS */
+h1 {
+  color: #74dcff;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.sub-info {
+  color: #74dcff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #74dcff;
+  margin-top: 30px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+
+/* TEXT */
+p {
+  margin: 10px 0;
+}
+
+/* LIST */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 6px 0;
+}
+
+/* LINKS */
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.back-btn {
+  display: inline-block;
+  margin: 20px;
+  padding: 8px 14px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #e6edf3;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background-color: #00bfff;
+  color: #000;
+}

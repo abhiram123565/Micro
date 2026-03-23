@@ -1,0 +1,119 @@
+body {
+  font-family: "Montserrat", sans-serif;
+
+  /* Softer white (pure white strains eyes) */
+  color: #e6edf3;
+
+  background-color: #000;
+  background-image:
+    radial-gradient(1px 1px at 15% 25%, #fff, transparent),
+    radial-gradient(1px 1px at 75% 15%, #fff, transparent),
+    radial-gradient(1.5px 1.5px at 45% 85%, #fff, transparent),
+    radial-gradient(1px 1px at 85% 70%, #fff, transparent);
+  background-size: 270px 270px;
+
+  line-height: 1.7;
+}
+
+/* NAVBAR */
+nav {
+  padding: 20px 5%;
+  border-bottom: 1px solid #222;
+}
+
+.nav-logo {
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-logo:hover {
+  color: #41a154;
+  transition: 0.3s;
+}
+
+/* MAIN CONTAINER */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+}
+
+/* HEADINGS */
+h1 {
+  color: #00bfff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  color: #00bfff;
+  margin-top: 30px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #333;
+}
+
+.sub-info {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #c9d1d9;
+}
+
+p {
+  margin: 10px 0;
+  color: #c9d1d9;
+}
+
+/* LIST */
+ul {
+  list-style-type: none; /* cleaner look */
+  padding: 0;
+}
+
+ul li {
+  margin: 6px 0;
+}
+
+/* LINKS */
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 30px 15px;
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+.back-btn {
+  display: inline-block;
+  margin: 20px;
+  padding: 8px 14px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #e6edf3;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background-color: #00bfff;
+  color: #000;
+}

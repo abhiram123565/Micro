@@ -1,0 +1,182 @@
+body {
+  font: 400 16px "Montserrat", sans-serif;
+  color: #ffffff;
+
+  background-color: #000000;
+  background-image:
+    radial-gradient(1px 1px at 15% 25%, #fff, transparent),
+    radial-gradient(1px 1px at 75% 15%, #fff, transparent),
+    radial-gradient(1.5px 1.5px at 45% 85%, #fff, transparent),
+    radial-gradient(1px 1px at 85% 70%, #fff, transparent);
+  background-size: 270px 270px;
+
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+nav {
+  padding: 1.5rem 5%;
+  border-bottom: 1px solid #222;
+}
+
+.nav-logo {
+  font: 700 1.2rem sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.nav-logo:hover {
+  color: #62d777;
+}
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+.container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(6px);
+  border-radius: 10px;
+}
+
+/* =========================
+   HEADINGS
+========================= */
+h1 {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  text-align: center;
+  margin-bottom: 10px;
+  color: #00e5ff;
+  letter-spacing: 2px;
+}
+
+.container > p {
+  text-align: center;
+  margin-bottom: 40px;
+  opacity: 0.85;
+}
+
+/* Section Titles */
+h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #00e5ff;
+  letter-spacing: 1px;
+}
+
+/* =========================
+   SECTIONS
+========================= */
+section {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+/* =========================
+   TEXT
+========================= */
+p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+/* =========================
+   LISTS (SKILLS)
+========================= */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  padding-left: 15px;
+  position: relative;
+}
+
+ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #00e5ff;
+}
+
+/* =========================
+   PROJECTS
+========================= */
+section p strong {
+  display: block;
+  margin-top: 18px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* =========================
+   LINKS
+========================= */
+a {
+  color: #00e5ff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+/* =========================
+   CONTACT
+========================= */
+section:last-child p {
+  margin-bottom: 8px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .container {
+    margin: 30px 15px;
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+.back-btn {
+  display: inline-block;
+  margin: 20px;
+  padding: 8px 14px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #e6edf3;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background-color: #00bfff;
+  color: #000;
+}

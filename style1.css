@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font:
+    400 16px "Montserrat",
+    serif;
+  color: #000000;
+  background: #000;
+  background-image:
+    radial-gradient(1px 1px at 15% 25%, #fff, #0000),
+    radial-gradient(1px 1px at 75% 15%, #fff, #0000),
+    radial-gradient(1.5px 1.5px at 45% 85%, #fff, #0000),
+    radial-gradient(1px 1px at 85% 70%, #fff, #0000);
+  background-size: 270px 270px;
+  height: 100vh;
+  
+}
+
+nav {
+  padding: 1.5rem 5%;
+  border-bottom: 1px solid #222;
+}
+
+.nav-logo {
+  font: 700 1.2rem sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(255, 250, 250, 0.2);
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #00ffff;
+}
+
+.tagline {
+  text-align: center;
+  color: #f3f1f1;
+  margin-bottom: 20px;
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  color: #00ffff;
+
+}
+
+p {
+  line-height: 1.6;
+  color: #ddd;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.project {
+  margin-bottom: 15px;
+}
+
+a {
+  color: #0077b5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 20px;
+  }
+}
+
+.nav-logo:hover {
+  color: #62d777b4;
+  transition: 0.4s;
+}
+
+.back-btn {
+  display: inline-block;
+  margin: 20px;
+  padding: 8px 14px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #e6edf3;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background-color: #00bfff;
+  color: #000;
+}

@@ -1,0 +1,87 @@
+body {
+  font-family: "Montserrat", sans-serif;
+
+  /* Softer white (pure white strains eyes) */
+  color: #e6edf3;
+
+  background-color: #000;
+  background-image:
+    radial-gradient(1px 1px at 15% 25%, #fff, transparent),
+    radial-gradient(1px 1px at 75% 15%, #fff, transparent),
+    radial-gradient(1.5px 1.5px at 45% 85%, #fff, transparent),
+    radial-gradient(1px 1px at 85% 70%, #fff, transparent);
+  background-size: 270px 270px;
+
+  line-height: 1.7;
+}
+
+/* NAVBAR */
+nav {
+  padding: 20px 5%;
+  border-bottom: 1px solid #222;
+}
+
+.nav-logo {
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-logo:hover {
+  color: #41a154;
+  transition: 0.3s;
+}
+.container {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(138, 211, 235);
+  letter-spacing: 2px;
+}
+
+h2 {
+  color: rgb(138, 211, 235);
+  margin-top: 30px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+
+section {
+  background: rgba(131, 128, 128, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+section:hover {
+  transform: scale(1.03);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.back-btn {
+  display: inline-block;
+  margin: 20px;
+  padding: 8px 14px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #e6edf3;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background-color: #00bfff;
+  color: #000;
+}
