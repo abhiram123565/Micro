@@ -1,10 +1,9 @@
 body {
   margin: 0;
   font:
-    400 16px "Playfair Display",
+    400 16px "Montserrat",
     serif;
-  color: #000000;
-  background: #000;
+  background-color: #000000;
   background-image:
     radial-gradient(1px 1px at 15% 25%, #fff, #0000),
     radial-gradient(1px 1px at 75% 15%, #fff, #0000),
@@ -12,7 +11,6 @@ body {
     radial-gradient(1px 1px at 85% 70%, #fff, #0000);
   background-size: 270px 270px;
   height: 100vh;
-  overflow: hidden;
 }
 
 nav {
@@ -86,6 +84,10 @@ h1 {
 }
 
 /* Hover effect */
+.nav-logo:hover {
+  color: #62d777b4;
+  transition: 0.4s;
+}
 .members-link:hover {
   color: #fff;
   border-color: #fff;
@@ -94,4 +96,13 @@ h1 {
   padding-left: 15px;
   background: #ffffff08;
   border-color: #fff;
+}
+
+/* Profile 5 */
+
+
+.fade-in,
+.fade-in-delayed {
+  opacity: 0;
+  transform: translateY(20px);
 }
