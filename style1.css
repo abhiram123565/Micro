@@ -88,13 +88,20 @@ a:hover {
 }
 
 /* Mobile Responsive */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .container {
-    width: 95%;
-    padding: 20px;
+    margin: 30px 15px;
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 20px;
   }
 }
-
 .nav-logo:hover {
   color: #62d777b4;
   transition: 0.4s;
